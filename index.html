@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Hello world!</h1>
+  <div class="page">
+  <header class="about">
+    <div>
+      <h1 class="about__name">Iryna Shtynda</h1>
+      <div class="about__role">FRONTEND DEVELOPER | LVIV</div>
+      <p class="about__text"> I am a fast learner and a responsible individual with the ability to make independent
+        decisions and bring any
+        project to completion. I possess a strong understanding of HTML, CSS, JavaScript and React gained through
+        extensive coding bootcamp training. I am excited to collaborate with a talented engineering team to develop
+        quality solutions.</p>
+    </div>
+    <img class="about__photo" src="./photo.jpg" alt="Iryna Shtynda" />
+  </header>
+  <main class="main">
+    <section class="contacts">
+      <a class="contacts__link" href="tel:+380966175760">+380966175760</a>
+      <a class="contacts__link" href="mailto:ira.shtynda@gmail.com">ira.shtynda@gmail.com</a>
+      <a class="contacts__link" href="https://t.me/irashtynda">Telegram</a>
+    </section>
+    <section class="info">
+      <h2 class="info__title">Projects</h2>
+      <div class="info__content">
+        <article class="project">
+          <h3 class="project__title">Plant Shop</h3>
+          <a class="project__link"
+            href="https://irashtynda.github.io/plants-land-shop/">https://irashtynda.github.io/plants-land-shop/</a>
+          <p class="project__description"><strong>Tech stack:</strong> React (Hooks), Material UI, Redux Toolkit, CSS
+          </p>
+        </article>
+        <article class="project">
+          <h3 class="project__title">Game of Thrones</h3>
+          <a class="project__link"
+            href="https://irashtynda.github.io/game-of-thrones/">https://irashtynda.github.io/game-of-thrones/</a>
+          <p class="project__description"><strong>Tech stack:</strong> React (Hooks), REST API (Axios), CSS</p>
+        </article>
+        <article class="project">
+          <h3 class="project__title">Interior Designer</h3>
+          <a class="project__link"
+            href="https://irashtynda.github.io/interior-designer/">https://irashtynda.github.io/interior-designer/</a>
+          <p class="project__description"><strong>Tech stack:</strong> HTML, CSS, JavaScript</p>
+        </article>
+      </div>
+    </section>
+    <section class="info">
+      <h2 class="info__title">Education</h2>
+      <div class="info__content">
+        <article class="study">
+          <h3 class="study__title">SoftServe IT Academy | October 2022 - December 2022</h3>
+          <p class="study__description">REACT ONLINE MARATHON</p>
+        </article>
+        <article class="study">
+          <h3 class="study__title">SoftServe IT Academy | June 2022 - July 2022</h3>
+          <p class="study__description">HTML5/ CSS3/ JAVASCRIPT FUNDAMENTALS COURSE</p>
+        </article>
+        <article class="study">
+          <h3 class="study__title">National University Lviv Polytechnic | 2010 - 2015</h3>
+          <p class="study__description">Master degree in civial engineering</p>
+        </article>
+      </div>
+    </section>
+    <section class="info">
+      <h2 class="info__title">Skills</h2>
+      <div class="info__content">
+        <div class="skills">
+          <ul class="skills__list">
+            <li class="skills__item">HTML5</li>
+            <li class="skills__item">CSS3</li>
+            <li class="skills__item">Sass (SCSS)</li>
+          </ul>
+          <ul class="skills__list">
+            <li class="skills__item">BEM</li>
+            <li class="skills__item">Javascript</li>
+            <li class="skills__item">React (Redux)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <h2 class="info__title">Tools</h2>
+      <div class="info__content">
+        <div class="tools">
+          <ul class="tools__list">
+            <li class="tools__item">Figma</li>
+            <li class="tools__item">GIT</li>
+            <li class="tools__item">NPM</li>
+          </ul>
+          <ul class="tools__list">
+            <li class="tools__item">ESLint</li>
+            <li class="tools__item">VSCode</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
 </body>
+
 </html>
